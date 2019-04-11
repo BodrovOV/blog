@@ -15,13 +15,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 20%;
     background-color: silver;
+    text-align: center;
 }
 
 .avatar {
     width: 70%;
-    border-radius: 30%;
+    border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +33,20 @@ body {
     display: flex;
     align-content: center;
     flex-direction: column;
+}
+
+.navigation_link {
+    display: inline;
+    font-weight: 700;
+    margin: 5px;
+    color: cornflowerblue;
+    border-bottom: 1px solid rgb(233, 234, 236)
+}
+
+.navigation_link:hover {
+    margin: 5px;
+    color: rgb(72, 121, 218);
+    border-bottom: 1px solid  rgb(72, 121, 218);
 }
 
 .name {
@@ -45,4 +60,13 @@ body {
     flex-direction: column;
     align-items: center;
     width: 70%;
+}
+
+.inst {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
